@@ -2,10 +2,15 @@ import React from 'react';
 import Tile from './Tile';
 import '../styles/PerkSectionStyles.scss';
 import { PerksStatic } from '../static/LandingPageStatic';
+import SectionHeader from './SectionHeader';
+import Button from './Button';
 
 const PerkSection = () => {
     return (
         <Tile containerStyle="perk-section__container">
+            <SectionHeader>
+                <Button text={PerksStatic.buttonText} customStyles="perk-section__button" />
+            </SectionHeader>
             <div className="perk-section__content-container">
                 {PerksStatic.content.map((content) => {
                     return (

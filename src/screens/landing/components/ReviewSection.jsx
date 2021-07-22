@@ -4,6 +4,8 @@ import { ReviewsStatic } from '../static/LandingPageStatic';
 import Tile from './Tile';
 import "../styles/ReviewSectionStyles.scss";
 import { SmallSpeaker1, SmallSpeaker2 } from '../static/ImgUrls';
+import SectionHeader from './SectionHeader';
+import Button from './Button';
 
 const ReviewSection = () => {
     const getStars = (stars) => {
@@ -17,6 +19,9 @@ const ReviewSection = () => {
 
     return (
         <Tile containerStyle="review-section__container">
+            <SectionHeader>
+                <Button text={ReviewsStatic.buttonText} customStyles="review-section__button" />
+            </SectionHeader>
             <div className="review-section__content-container">
                 <div className="review-section__image-section">
                     <img src={SmallSpeaker1} alt="speaker" height="300" width="300" />
