@@ -67,4 +67,22 @@ const FooterStatic = {
     color: "#FFFFFF",
 };
 
-export { PerksStatic, ReviewsStatic, DownloadAppStatic, FooterStatic }
+const DemoSectionSeatsStatic = {
+    buttonText: "TRY IT NOW",
+    header: "FRONT ROW SEATS",
+    subHeader: "Experience concerts up close and personal.",
+    demoButtonText: "SEE DEMO",
+    headerColor: "#FFFFFF",
+    subHeaderColor: "#191919"
+};
+
+const DemoSectionAudioStatic = {
+    buttonText: "TRY IT NOW",
+    header: "SUPERIOR SOUND",
+    subHeader: "Experience live versions of your favourite songs.",
+    demoButtonText: "SEE DEMO",
+    headerColor: "#FFFFFF",
+    subHeaderColor: "#0B0B0B"
+};
+
+export { PerksStatic, ReviewsStatic, DownloadAppStatic, FooterStatic, DemoSectionSeatsStatic, DemoSectionAudioStatic }

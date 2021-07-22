@@ -1,0 +1,44 @@
+.demo-section-audio {
+    &__container {
+        background-color: #D34848;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content-container {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__header-text {
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    &__sub-header-text {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    &__button {
+        background-color: #FFFFFF !important;
+        color: #D1346E !important;
+    }
+
+    &__demo-button {
+        background-color: #FFFFFF !important;
+        color: #D1346E !important;
+    }
+
+    &__top-speaker-img {
+        transform: translate(0px, -44px);
+    }
+
+    &__bottom-speaker-img {
+        transform: translate(0px, 44px);
+    }
+}
