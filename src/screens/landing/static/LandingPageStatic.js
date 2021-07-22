@@ -1,4 +1,5 @@
 const PerksStatic = {
+    buttonText: "TRY IT NOW",
     content: [
         {
             sectionHeader: "PERKS",
@@ -25,6 +26,7 @@ const PerksStatic = {
 };
 
 const ReviewsStatic = {
+    buttonText: "TRY IT NOW",
     reviews: [
         {
             sectionHeader: "REVIEWS",
