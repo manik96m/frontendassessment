@@ -1,0 +1,51 @@
+.review-section {
+    &__container {
+        background-color: #1FE1E9;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__section-header-text {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 47px;
+        line-height: 0px;
+        font-weight: bold;
+    }
+
+    &__content-container {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__header-wrapper {
+        max-width: 200px;
+    }
+
+    &__header-text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &__sub-header-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    &__star {
+        margin-bottom: 15px;
+    }
+
+    &__image-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__bottom-speaker-img {
+        position: absolute;
+        transform: rotate(-37deg) translate(0px, 167px);
+    }
+}

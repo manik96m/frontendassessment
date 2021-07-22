@@ -24,4 +24,45 @@ const PerksStatic = {
     ]
 };
 
-export { PerksStatic }
+const ReviewsStatic = {
+    reviews: [
+        {
+            sectionHeader: "REVIEWS",
+            stars: 5,
+            header: "ARTIST",
+            comment: "“Love it, it’s the Best. I can’t live without it!”",
+            headerColor: "#FFFFFF",
+            subHeaderColor: "#191919"
+        },
+        {
+            stars: 4,
+            header: "PRODUCER",
+            comment: "“Love it, it’s the Best. I can’t live without it!”",
+            headerColor: "#FFFFFF",
+            subHeaderColor: "#191919"
+        },
+        {
+            stars: 5,
+            header: "MUSIC FAN",
+            comment: "“Love it, it’s the Best. I can’t live without it!”",
+            headerColor: "#FFFFFF",
+            subHeaderColor: "#191919"
+        },
+    ],
+};
+
+const DownloadAppStatic = {
+    header: "GET EXP|CON NOW",
+    subHeader: "Purchase and download the app.",
+    headerColor: "#D34848",
+    subHeaderColor: "#FFFFFF"
+};
+
+const FooterStatic = {
+    email: "support@experienceconcerts.co",
+    header: "EXP|CON",
+    copyrightText: "2019 © All Rights Reserved | Speer Technologies Incorporated",
+    color: "#FFFFFF",
+};
+
+export { PerksStatic, ReviewsStatic, DownloadAppStatic, FooterStatic }
