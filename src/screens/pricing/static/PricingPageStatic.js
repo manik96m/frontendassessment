@@ -5,7 +5,7 @@ const Content = {
     "Test out our app today! Choose from three subscription Based payment models.",
   content: [
     {
-      id: "id1",
+      id: "BASIC",
       sectionHeader: "BASIC",
       header: "MONTHLY",
       price: "$9",
@@ -21,7 +21,7 @@ const Content = {
       ],
     },
     {
-      id: "id2",
+      id: "ADVANCED",
       sectionHeader: "ADVANCED",
       header: "YEARLY",
       price: "$99",
@@ -37,7 +37,7 @@ const Content = {
       ],
     },
     {
-      id: "id3",
+      id: "PRO",
       sectionHeader: "PRO",
       header: "YEARLY",
       price: "$120",

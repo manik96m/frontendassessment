@@ -1,0 +1,22 @@
+.radio {
+  &__label {
+    letter-spacing: 1px;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  &__field:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+  }
+}
