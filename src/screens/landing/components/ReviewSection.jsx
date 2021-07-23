@@ -6,12 +6,13 @@ import "../styles/ReviewSectionStyles.scss";
 import { SmallSpeaker1, SmallSpeaker2 } from '../static/ImgUrls';
 import SectionHeader from './SectionHeader';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const ReviewSection = () => {
     const getStars = (stars) => {
         const starsImg = []
         for (let i = 1; i <= stars; i++) {
-            starsImg.push(<img src="https://freesvg.org/img/star-15.png" height="19" width="20" alt="star" />)
+            starsImg.push(<img key={"star" + i} src="https://freesvg.org/img/star-15.png" height="19" width="20" alt="star" />)
         }
 
         return starsImg;
@@ -20,7 +21,9 @@ const ReviewSection = () => {
     return (
         <Tile containerStyle="review-section__container">
             <SectionHeader>
-                <Button text={ReviewsStatic.buttonText} customStyles="review-section__button" />
+                <Link to="/pricing">
+                    <Button text={ReviewsStatic.buttonText} customStyles="review-section__button" type="HOVER_ANIMATE" />
+                </Link>
             </SectionHeader>
             <div className="review-section__content-container">
                 <div className="review-section__image-section">
@@ -29,7 +32,7 @@ const ReviewSection = () => {
                 </div>
                 {ReviewsStatic.reviews.map((content) => {
                     return (
-                        <div className="review-section__header-wrapper">
+                        <div className="review-section__header-wrapper" key={content.id}>
                             <div className="review-section__section-header-text">
                                 {content.sectionHeader}
                             </div>

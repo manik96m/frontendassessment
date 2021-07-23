@@ -1,12 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 import Landing from './screens/landing/Landing';
+import Pricing from "./screens/pricing/Pricing";
 
 function App() {
   return (
-    <div>
-      <Landing />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/pricing">
+          <Pricing />
+        </Route>
+        <Route path="/">
+          <Landing />
+        </Route>
+      </Switch>
+  </Router>
   );
 }
 

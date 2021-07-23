@@ -9,7 +9,7 @@ import ReviewSection from './components/ReviewSection';
 
 const Landing = () => {
     return (
-        <div>
+        <>
             <HeroSection />
             <DemoSectionAudio />
             <DemoSectionSeats />
@@ -17,7 +17,7 @@ const Landing = () => {
             <ReviewSection />
             <DownloadAppSection />
             <FooterSection />
-        </div>
+        </>
     );
 };
 

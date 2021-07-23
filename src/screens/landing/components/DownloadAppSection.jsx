@@ -3,6 +3,7 @@ import React from 'react';
 import Tile from './Tile';
 import { DownloadAppStatic } from '../static/LandingPageStatic';
 import "../styles/DownloadAppSectionStyles.scss";
+import Button from './Button';
 
 const DownloadAppSection = () => {
     return (
@@ -16,6 +17,7 @@ const DownloadAppSection = () => {
                         {DownloadAppStatic.subHeader}
                     </div>
                 </div>
+                <Button text={DownloadAppStatic.buttonText} type="HOVER_ANIMATE" />
             </div>
         </Tile>
     );
