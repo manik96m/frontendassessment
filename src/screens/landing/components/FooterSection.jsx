@@ -9,7 +9,7 @@ const FooterSection = () => {
         <Tile containerStyle="footer__container">
             <div style={{ color: FooterStatic.color }} className="footer__content-container">
                 <div className="footer__email">
-                    <img src="https://freesvg.org/img/Minduka-mail.png" alt="speaker" height="30" width="30" />
+                    <img src="https://freesvg.org/img/Minduka-mail.png" alt="speaker" height="30" width="30" className="footer__email-img" />
                     <span className="footer__email-text">{FooterStatic.email}</span>
                 </div>
                 <div>

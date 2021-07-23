@@ -1,25 +1,26 @@
 .download-app {
-    &__container {
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-    }
+  &__container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__content-container {
-        display: flex;
-        flex: 1;
-        justify-content: space-around;
-        align-items: center;
-    }
+  &__content-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    &__header-text {
-        font-size: 38px;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
+  &__header-text {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
 
-    &__sub-header-text {
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
+  &__sub-header-text {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
 }

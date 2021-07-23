@@ -29,9 +29,12 @@
         margin-bottom: 40px;
         width: 100%;
         text-align: left;
-        margin-left: 120px;
         display: flex;
         align-items: center;
+    }
+
+    &__email-img {
+        margin-left: 120px;
     }
 
     &__email-text {

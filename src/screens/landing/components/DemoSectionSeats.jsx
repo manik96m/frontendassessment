@@ -6,12 +6,15 @@ import { DemoSectionSeatsStatic } from '../static/LandingPageStatic';
 import SectionHeader from './SectionHeader';
 import Button from './Button';
 import "../styles/DemoSectionSeats.scss";
+import { Link } from 'react-router-dom';
 
 const DemoSectionSeats = () => {
     return (
         <Tile containerStyle="demo-section-seats__container">
             <SectionHeader>
-                <Button text={DemoSectionSeatsStatic.buttonText} customStyles="demo-section-seats__button" />
+                <Link to="/pricing">
+                    <Button text={DemoSectionSeatsStatic.buttonText} customStyles="demo-section-seats__button" type="HOVER_ANIMATE" />
+                </Link>
             </SectionHeader>
             <div className="demo-section-seats__content-container">
                 <div style={{ maxWidth: '437px' }}>

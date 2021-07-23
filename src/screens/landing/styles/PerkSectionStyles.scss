@@ -1,45 +1,51 @@
 .perk-section {
-    &__container {
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-    }
+  &__container-pricing {
+    background-color: #d34848;
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__section-header-text {
-        color: white;
-        font-size: 40px;
-        margin-bottom: 47px;
-        line-height: 0px;
-        font-weight: bold;
-    }
+  &__container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__content-container {
-        display: flex;
-        flex: 1;
-        justify-content: space-around;
-        align-items: center;
-    }
+  &__section-header-text {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 47px;
+    line-height: 0px;
+    font-weight: bold;
+  }
 
-    &__header-wrapper {
-        max-width: 200px;
-    }
+  &__content-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    &__header-text {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
+  &__header-wrapper {
+    max-width: 200px;
+  }
 
-    &__sub-header-text {
-        font-size: 14px;
-    }
+  &__header-text {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 
-    &__line {
-        height: 1px;
-        width: 40px;
-    }
+  &__sub-header-text {
+    font-size: 14px;
+  }
 
-    &__button {
-        background-color: #FFFFFF !important;
-        color: #D1346E !important;
-    }
+  &__line {
+    height: 1px;
+    width: 40px;
+  }
+
+  &__button {
+    background-color: #ffffff !important;
+    color: #d1346e !important;
+  }
 }
