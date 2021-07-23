@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Tile from './Tile';
 import '../styles/DemoSectionAudio.scss';
@@ -6,7 +7,6 @@ import { DemoSectionAudioStatic } from '../static/LandingPageStatic';
 import SectionHeader from './SectionHeader';
 import Button from './Button';
 import { audio, SpeakerMedium1, SpeakerMedium2 } from '../static/ImgUrls';
-import { Link } from 'react-router-dom';
 
 const DemoSectionAudio = () => {
     const [audioContext, updateAudioContext] = useState(null);

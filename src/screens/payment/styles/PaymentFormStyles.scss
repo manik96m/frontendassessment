@@ -1,0 +1,49 @@
+.payment-form {
+  &__container {
+    background-color: #fff;
+    block-size: auto;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+  }
+
+  &__form-header {
+    font-size: 20px;
+  }
+
+  &__field-wrapper {
+    margin-bottom: 15px;
+  }
+
+  &__form-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  &__plan-selection-wrapper {
+    margin-bottom: 60px;
+  }
+
+  &__section-heading {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+  }
+
+  &__disclaimer {
+    margin-top: 40px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+  }
+}

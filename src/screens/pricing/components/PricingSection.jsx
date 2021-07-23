@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Tile from '../../landing/components/Tile';
 import '../styles/PricingSection.scss';
@@ -9,9 +10,8 @@ import Button from '../../landing/components/Button';
 const PricingSection = () => {
     return (
         <Tile containerStyle="pricing__container">
-            <div></div>
+            <div />
             <div>
-                
             <SectionHeader />
             <div className="pricing__section-heading">{PricingPageStatic.sectionHeading}</div>
             <div className="pricing__section-desc">{PricingPageStatic.sectionDesc}</div>
@@ -37,15 +37,14 @@ const PricingSection = () => {
                                     return <div className="pricing__feature" key={"feature" + index}>♪ {feature}</div>;
                                 })
                             }
-                            <Button text={PricingPageStatic.buttonText} customStyles="pricing__button" />
+                            <Link to={{ pathname: "/payment", state: { plan: content.id }}}>
+                              <Button text={PricingPageStatic.buttonText} customStyles="pricing__button" />
+                            </Link>
                         </div>
                     );
                 })}
             </div>
-
-
-            </div>
-            
+            </div>  
         </Tile>
     );
 };
